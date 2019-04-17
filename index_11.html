@@ -21,21 +21,12 @@
     });
   </script>
 </head>
-<div class="container">
-  <div class="jumbtron">
-    <h1> This is the timer of your life</h1>
-   <style> 
-   h1 {text-align: center;
-   color:purple}
-   </style>
-  </div>
 
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12">
         <div id = "dTimer">00:45</div>
-
       </div>
     </div>
 
@@ -51,31 +42,18 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <button id = "btnRest">Reset</button>
+          <button id = "btnReset">Reset</button>
         </div>
       </div>
   </div>
 
-  <script>
-    $(document).ready(function() {
-      $("#btnStart").on('click', function(){
-        console.log("Start");
-      })
-
-      $("#btnStop").on ('click', function(){
-      console.log("Stop");
-      })
-
-      $("#btnRest").on('click',function(){
-        console.log("Rest");
-      })  
+<script>
+  $(document).ready(function){
+    $("#btnStart").on('click',function(){
+      
     })
-
-
-
-
-  </script>
-
+}
+</script>
   
 
 </body>
